@@ -1,5 +1,4 @@
 name: immich
-
 services:
   immich-server:
     container_name: immich_server
@@ -78,7 +77,7 @@ services:
 x-casaos:
   architectures:
     - amd64
-  main: immich
+  main: immich-server
   author: CasaOS Team
   category: Gallery
   description:
